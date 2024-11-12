@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to bottom right, #ffe8e8, #d6a4a4);
+}
+
+header h1 {
+    font-family: 'Lobster', cursive;
+}
+
+button:hover {
+    background-color: #8b0000;
+    color: #fff;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2em 0;
+}
+
+form input, form textarea, form button {
+    display: block;
+    width: 80%;
+    margin: 0.5em auto;
+    padding: 0.5em;
+}
